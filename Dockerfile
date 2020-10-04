@@ -12,7 +12,7 @@ RUN /usr/local/bin/install-plugins.sh workflow-aggregator && \
     /usr/local/bin/install-plugins.sh kubernetes-cli && \
     /usr/local/bin/install-plugins.sh github-branch-source
 
-# install Maven, Java, Docker, AWS
+# install Maven, Java, Docker
 RUN apk add --no-cache maven \
     openjdk8 \
     docker \
